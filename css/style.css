@@ -1,0 +1,112 @@
+a:link {
+  color: #5C96FF;
+}
+
+a:visited {
+  color: #8A2FEC;
+}
+
+html{
+  width: 100%;
+  height: 100%;
+}
+
+html *::selection{
+  background: #D1EEFF;
+}
+
+body{
+  padding: 8px;
+  box-sizing: border-box;
+  margin: 0;
+  width: inherit;
+  height: inherit;
+}
+
+h1 a {
+  color: black !important;
+  text-decoration: none;
+}
+
+p span {
+  font-size: 10px;
+  line-height: 5px;
+}
+
+video {
+  width: 100%;
+  max-height: 98%;
+}
+
+p.addresses{
+  position: fixed;
+  bottom: 0px;
+  left: 8px;
+  margin: .7em 0;
+}
+
+p.addresses a{
+  display: block;
+  margin-top: 16px;
+}
+
+p.copyright{
+  font-size: 7pt;
+  position: fixed;
+  bottom: 0px;
+  right: 8px;
+}
+
+p.extra{
+  color: white;
+}
+
+img#image, img#text{
+  width: 300px;
+  display: block;
+}
+
+img#text{
+  margin-bottom: 50px;
+}
+
+/* ----------- HTC One ----------- */
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+
+}
+/* ----------- Galaxy S3 ----------- */
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) {
+
+}
+/* ----------- Galaxy S4 ----------- */
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+
+}
+/* ----------- Galaxy S5 ----------- */
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+
+}
+/* ----------- iPhone 4 and 4S ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+/* ----------- iPhone 5 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+  html{
+    font-size:1em;
+  }
+  h1 a{
+    font-size: 1.4em;
+  }
+  p{
+    font-size:.8em;
+  }
+}
+/* ----------- iPhone 6 ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+/* ----------- iPhone 6+ ----------- */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+
+}
